@@ -1,0 +1,475 @@
+
+/* *{
+    transition:ease-in 1s;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+
+}
+@media  (max-width: 500px) {
+    header{
+        flex-wrap:wrap ;
+        height: 100px;
+    }
+    .ikonat{
+        margin-left: 150px;
+    }
+    .ikonat a{
+        font-size: smaller;
+    }
+    #mbajtesi{
+        width: 416px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #contentMbajtesi{
+        margin-left: -150px;
+        width: 150px;
+    }
+    
+}
+
+   
+ 
+.kategorite{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center; 
+}
+.kategorite a{
+    color: #07484a;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.kategorite a:hover{
+    text-decoration: underline;
+    font-weight: 1000;
+}
+
+
+.ikonat{
+    width: 100px;
+    margin-right: 100px;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.ikonat i img{  
+    height: 25px; 
+}
+.log{
+    border: 1px solid;
+    height: 700px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid 3px #07484a;
+    border-radius: 50px;
+}
+.log input{
+    width: 230px;
+    height: 40px;
+    border-radius: 15px;
+    border: solid 0.5px #07484a;
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.log p{
+    font-size: large;
+    color: #07484a;
+    font-weight: bold;
+}
+.log button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: solid 0.5px #07484a;
+    background-color: #07484a;
+    color:white;
+    cursor: pointer;
+    font-size: medium;
+    
+}
+#fname, #lname{
+    width: 130px;
+    margin: 10px;
+}
+#info{
+    display: flex;
+    margin-bottom: -10px;
+    
+}
+#info2{
+    display: flex;
+    flex-direction: column;
+}
+#info2 input{
+    margin-top: 10px;
+    width: 306px;
+
+}
+#requirements{
+    margin: 30px;
+}
+#requirements li{
+    list-style: circle;
+    color: black;
+}
+main{
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    flex-wrap:wrap;
+    margin-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.produktet{
+    margin-top: 100px;
+    width: 300px;
+    height: 450px;
+    padding: 30px;
+}
+.produktet img{
+    width: 300px;
+    border-radius: 30px; 
+    height: 300px; 
+    object-fit: cover;
+    object-position: 25% 25%; 
+}
+.produktet h3{
+    text-align: center;
+}
+.produktet button{
+    width: 85px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    height: 30px;
+    border-color: #07484a;
+    
+}
+
+
+.produktet button:hover{
+    background-color: #07484a;
+    color: white;
+    cursor: pointer;
+}
+footer{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #07484a;
+    color: white;
+    margin-bottom: -10px;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+footer a, li{
+    color: white;
+    list-style: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+#main{
+    border-bottom: solid #07484a;
+    padding: 20px;
+    margin: 0 auto;
+    width: 700px;
+    
+}
+#desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#foto{
+    text-align: center;
+}
+#main button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-color: #07484a;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+#main button:hover{
+    background-color: #07484a;
+    color: white;
+}
+#mbajtesi{
+    display: flex;
+}
+
+#AbUs{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#content{
+    border: solid #07484a;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 1100px;
+}
+#mbajtesi{
+/* background:url(https://img.freepik.com/premium-photo/interior-bright-living-room-with-pillows-sofa-armchair-plants-lamp-empty-blue-wall-background_41470-708.jpg?w=2000); */
+background-position-y: 70%;
+ height: 708px;
+ margin-left: -10px;
+ margin-right: -8px;
+ display: flex
+ 
+}
+#contentMbajtesi{
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+}
+#contentMbajtesi h1,p{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cH1{
+    font-style: italic;
+    text-shadow: -1px 0 black, 0 1px black;
+}
+#shop{
+    width: 200px;
+    height: 40px;
+    background-color: #07484a;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.contact{
+    border: 1px solid;
+    height:600px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid 3px #07484a;
+    border-radius: 50px;
+    
+
+
+}
+.contact input{
+    width: 330px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid 0.5px #07484a;
+    padding-left: 20px;
+    margin: 15px;
+}
+
+ .con{
+    font-size: 20px;
+    font-weight: bold;
+    color: #07484a;
+}
+
+
+
+input[type=textarea]{
+    height:200px ;
+    
+}
+.lo{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    color:white;
+    
+    background-color: #26585a;
+    cursor: pointer;
+    border: solid 0.5px #07484a;
+    font-size: medium;
+
+}
+
+.off{
+    margin-top: 15px;
+    height: 100px;
+    background-color: #07484a;
+    color: white;
+    /* background:url(images/extra.jpg) ; */
+    border: 1px solid;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -8px;
+    padding-bottom: 40px;
+    text-align: center;   
+}
+.of{
+    font-size: 50px;
+    margin-left: 40pc;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+.off a{
+    color: white;
+    font-size: 20px;
+    margin-left:33pc ;
+    
+
+}
+.h4{
+    color: white;
+    font-size: 20px;
+}
+p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.loginn:hover{
+    text-decoration: underline;
+    font-size: 1000;
+   
+}
+.contactt{
+    border: 1px solid;
+    display:flex ;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+#Map{
+    width: 600px;
+}
+#ContactUs{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#information{
+    border: solid #07484a;
+    border-radius: 20px;
+    height: 400px;
+    width: 600px;
+
+    display: flex  ;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#inner{
+    display: flex;
+    width: 50px;
+    height: 40px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#c1{
+    width: 348px;
+    height: 100px;
+    text-align: center;
+}
+#send{
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: #07484a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box img{
+    height: 250px;
+    width: 200px;
+}
+.box{
+    border: solid 0.5px #07484a;
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#para {
+    text-align: center;
+    background-image: url('../images/photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  #para h3 {
+    color: #07484a;
+    padding: 100px;
+  }
+  
+ 
+.listatF li{
+    color: white;
+    list-style: none;
+}
+#sale{
+    display: flex;
+    justify-content: space-around;
+    height: 150;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 240px;
+    width: 430px;
+}
+.box1 img{
+    width: 100%;
+}
+#orderInfo ul, li{
+    list-style: circle;
+    color: #07484a;
+}
+.comments{
+    font-weight: normal;
+    font-style: italic;
+    padding: 15px;
+}
